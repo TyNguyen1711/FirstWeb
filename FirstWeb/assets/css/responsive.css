@@ -1,0 +1,95 @@
+/* Tablet & mobile */
+@media (max-width: 1113px)
+{
+    .hide-on-tablet-mobile {
+        display: none;
+    }
+
+    .header-mobile {
+        display: flex;
+    }
+
+    .row {
+        margin: 0;
+    }
+
+    .container-video {
+        
+        width: 608px;
+    }
+
+    .container-video__video {
+        height: 342px;
+    }
+    .row.no-wrap {
+        flex-wrap: nowrap;
+        overflow-x: auto;
+    }
+    .resort-item-wrap__img {
+        zoom: 0.8;
+    }
+    
+}
+@media (min-width: 1113px) and (max-width: 1299px)
+ {
+    .resort-item-wrap__img {
+        zoom: 0.8;
+    }
+ }
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px)
+{
+    .slider-banner-text {
+        zoom: 0.8;
+    }
+    .row {
+        margin: 0;
+    }
+    .container-video {
+        width: 608px;
+    }
+    .resort-item-wrap__img {
+        zoom: 0.6;
+    }
+}
+
+/* Mobile */
+@media (max-width: 739px)
+{
+    .hide-on-mobile {
+        display: none;
+    }
+    .mobile-login {
+        width: 95%;
+    }
+    .container-review {
+        height: 400px;
+    }
+    .container-review .user-info {
+        height: 185px;
+    }
+
+    .slider-banner-text,
+    .review-text,
+    .container-place-title,
+    .container-resort-title {
+        zoom: 0.5;
+    }
+    .row {
+        margin: 0;
+    }
+    .container-video {
+        width: 92%;
+        padding: 0 5px;
+    }
+    .resort-item-wrap__img {
+        zoom: 0.5;
+    }
+    .resort-item-wrap__img {
+        margin-bottom: 60px;
+    }
+
+    .center-on-mobile {
+        text-align: center;
+    }
+}
